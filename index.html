@@ -3,33 +3,27 @@
     <title>Shuffle and Sort</title>
     <link rel="stylesheet" href="styles/main.css" />
     <script src="scripts/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="mt-25">
+    <div class="margin-top">
 
       <header>
         <center>
-          <h1>Shuffle and Sort</h1>
+          <h1 class="head">Shuffle and Sort</h1>
         </center>
       </header>
 
       <div class="container">
 
         <div class="flex">
-          <div class="cards flex">
-            <div class="card card-1">1</div>
-            <div class="card card-2">2</div>
-            <div class="card card-3">3</div>
-            <div class="card card-4">4</div>
-            <div class="card card-5">5</div>
-            <div class="card card-6">6</div>
-            <div class="card card-7">7</div>
-            <div class="card card-8">8</div>
-            <div class="card card-9">9</div>
-          </div>
           <div class="right-panel">
-            <button class="btn">SHUFFLE</button>
-            <button class="btn">SORT</button>
+            <button class="btn" id="shuffle-btn">SHUFFLE</button>
+            <button class="btn" id="sort-btn">SORT</button>
+          </div>
+          <div class="cards flex" id="cards">
+            <!-- cards content will be inserted using JS -->
+            <div id="last-card"></div>
           </div>
         </div>
 
