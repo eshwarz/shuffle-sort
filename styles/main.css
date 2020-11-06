@@ -86,6 +86,7 @@ footer {
   }
   .container, .cards, .right-panel {
     max-width: 375px;
+    width: auto;
     border-top: 0;
     background: #ffffff;
   }
